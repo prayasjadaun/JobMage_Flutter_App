@@ -16,20 +16,20 @@ class _ResourceScreenState extends State<ResourceScreen> {
         scrollDirection: Axis.vertical,
         children: [
           Container(
-              height: 300, child: Lottie.asset('assets/animations/mind.json')),
+              height: 200, child: Lottie.asset('assets/animations/mind.json')),
           // --------------------Notes------------------------------------------------------------------------------------
           const Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                 Center(
+                Center(
                   child: Text(
                     'Top Notes',
                     style: TextStyle(
-                        fontSize: 25,
-                        fontWeight: FontWeight.w800,
-                        ),
+                      fontSize: 25,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
                 ),
               ],
@@ -293,9 +293,9 @@ class _ResourceScreenState extends State<ResourceScreen> {
                   child: Text(
                     'Top Books',
                     style: TextStyle(
-                        fontSize: 25,
-                        fontWeight: FontWeight.w800,
-                        ),
+                      fontSize: 25,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
                 ),
               ],
@@ -547,9 +547,9 @@ class _ResourceScreenState extends State<ResourceScreen> {
                   child: Text(
                     'Top Courses',
                     style: TextStyle(
-                        fontSize: 25,
-                        fontWeight: FontWeight.w800,
-                        ),
+                      fontSize: 25,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
                 ),
               ],
