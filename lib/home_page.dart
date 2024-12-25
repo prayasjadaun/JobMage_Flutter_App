@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:jobmage/screens/home_screen.dart';
 import 'package:jobmage/screens/profile_screen.dart';
 import 'package:jobmage/screens/resources_screen.dart';
-
 import 'screens/assessment_screen.dart';
-import 'screens/chatbot_screen.dart';
 import 'screens/job_screen.dart';
 
 class HomePage extends StatefulWidget {
