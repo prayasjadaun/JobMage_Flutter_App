@@ -15,7 +15,7 @@ class _ResourceScreenState extends State<ResourceScreen> {
       body: ListView(
         scrollDirection: Axis.vertical,
         children: [
-          Container(
+          SizedBox(
               height: 200, child: Lottie.asset('assets/animations/mind.json')),
           // --------------------Notes------------------------------------------------------------------------------------
           const Padding(
